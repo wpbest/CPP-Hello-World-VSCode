@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "clang++ build and debug active file",
+            "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/HelloWorld.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
